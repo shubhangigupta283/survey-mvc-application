@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "id": "5be0a43f597e330828a1302b",
+      "choices": [
+        { "choice": "Sith" },
+        { "choice": "Jedi Order" },
+        { "choice": "Galactic Empire" },
+        { "choice": "Rebel Alliance" }
+      ],
+      "question": "State your affiliation"
+    },
+    {
+      "id": "5be0a43f597e330828a1302c",
+      "choices": [
+        { "choice": "Emperor Palpatine" },
+        { "choice": "Obi-Wan Kenobi" },
+        { "choice": "Darth Vader" },
+        { "choice": "Han Solo" }
+      ],
+      "question": "State your name"
+    },
+    {
+      "id": "5be0a43f597e330828a1302d",
+      "choices": [
+        { "choice": "Force lightning" },
+        { "choice": "A single blue lightsaber" },
+        { "choice": "A double-sided red lightsaber" },
+        { "choice": "Force choke" },
+        { "choice": "DL-44 blaster" }
+      ],
+      "question": "Your weapon of choice"
+    },
+    {
+      "id": "5be0a43f597e330828a1302r",
+      "choices": [
+        { "choice": "X-wing fighter" },
+        { "choice": "Tie fighter" },
+        { "choice": "Death Star" },
+        { "choice": "Landspeeder" },
+        { "choice": "Battlecruiser" },
+        { "choice": "Millenium Falcon" }
+      ],
+      "question": "Your spacecraft of choice"
+    },
+    {
+      "Id": "5be0a43f597e330828a1302e",
+      "choices": [
+        { "choice": "Enforce Imperial rule and be the final Sith lord" },
+        { "choice": "To bring balance to the Force" },
+        { "choice": "To help his son overthrow the Emperor" }
+      ],
+      "question": "What is your M.O."
+    }
+  ]
+}

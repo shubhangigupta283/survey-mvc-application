@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>MVC Ex Solution Landing Page</title>
+</head>
+<body>
+    <p><em>SER421 MVC Ex Landing Page</em></p>
+    <form method='POST'>
+        Username:&nbsp;<input type='text' name='uname' size='10' value='<%= uname %>' pattern='[a-zA-Z]+' required /><br /><br />
+        <input type='submit' formaction='/survey' value='survey' />
+        <input type='submit' formaction='/match' value='match' />
+    </form>
+</body>
+</html>

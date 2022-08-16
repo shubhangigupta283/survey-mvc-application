@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>MVC Ex Solution Landing Page</title>
+</head>
+
+<body>
+    <p>
+        Best survey matches for <%= uname %> best-to-worst:
+    </p>
+    <p></p>
+    <ol>
+        <% for (let user in users) { %>
+        <li>User: <%= user %> matched <%= users[user] %> answers</li>
+        <% } %>
+    </ol>
+    <p></p>
+</body>
+
+</html>

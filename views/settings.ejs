@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>MVC Ex Solution Landing Page</title>
+</head>
+
+<body>
+    <p>
+        Your current rendering preference is <%= preference %>
+    </p>
+    <p></p>
+    <form method='POST' action='/setLayout'>
+        <input type="radio" name="preference" value="horizontal">
+        Horizontal
+        <br />
+        <input type="radio" name="preference" value="vertical">
+        Vertical
+        <br />
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>
